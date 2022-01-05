@@ -16,5 +16,6 @@ def hanoi(n,pin1,pin2,pin3):
       hanoi(n-1,pin3,pin2,pin1)
       move(pin2,pin3)
       hanoi(n-1,pin1,pin2,pin3)
-quantPin = int(input("How many disks do you want to solve?"))
+
+quantPin = int(input("How many disks do you want to solve?\n"))
 hanoi(quantPin,1,2,3)
